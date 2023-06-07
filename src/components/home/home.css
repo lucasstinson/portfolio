@@ -1,15 +1,21 @@
 .Home {
-  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: 000814;
 }
 
+.name {
+  color: #ffc300;
+}
+
 .intro {
+  height: 40vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
+  padding: 10px;
+  align-items: center;
 }
 
 .learn-more-container {
@@ -25,12 +31,72 @@
   background-color: #ffd60a;
   font-weight: 700;
   font-size: 18px;
+  transition: background-color 1s, color 1s;
 }
 
 .learn-more:hover {
-  opacity: 0.8;
+  background-color: #003566;
+  color: #ffd60a;
 }
 
 .user-logo {
   height: 300px;
+  padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    height: 60vh;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .name-intro {
+    font-size: 20px;
+  }
+
+  .info-intro {
+    font-size: 24px;
+  }
+
+  .learn-more {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .user-logo {
+    height: 200px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1080px) {
+  .intro {
+    height: 60vh;
+  }
+
+  .name-intro {
+    font-size: 20px;
+  }
+
+  .info-intro {
+    font-size: 24px;
+  }
+
+  .learn-more {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .user-logo {
+    height: 200px;
+  }
 }
