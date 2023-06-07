@@ -1,0 +1,22 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #003566;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #ffd60a;
+}
