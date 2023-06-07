@@ -1,0 +1,67 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 70vh;
+}
+
+.Hello {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.about-text-container {
+  font-size: 24px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 80vh;
+  }
+  .Hello {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .about-text-container {
+    font-size: 18px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personal-photo {
+    height: 200px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1080px) {
+  .About {
+    display: flex;
+    padding: 20px;
+    height: 70vh;
+    gap: 10px;
+  }
+  .Hello {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about-text-container {
+    font-size: 15px;
+    max-width: 88%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personal-photo {
+    height: 150px;
+  }
+}
