@@ -32,3 +32,12 @@
 .nav-link.active {
   border-bottom: 2px solid #ffd60a;
 }
+
+@media (max-width: 480px) {
+  .nav {
+    justify-content: space-around;
+  }
+  .home-logo {
+    display: none;
+  }
+}
