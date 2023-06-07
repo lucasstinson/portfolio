@@ -34,8 +34,29 @@
   height: 32px;
 }
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
   .footer-container {
     display: none;
+  }
+
+
+  
+} */
+
+@media (max-width: 480px) {
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .footer-text,
+  .logo-links {
+    gap: 10px;
+  }
+
+  .footer-logo {
+    height: 28px;
   }
 }
