@@ -8,8 +8,8 @@ const About = () => {
       <div className="about-text-container">
         <div className="Hello">Hello,</div>
         <p className="about-photo-into">
-          That's a recent picture of me, but I may have glasses or no beard. It
-          depends on the day.
+          That's a recent picture of me, but I may currently have glasses or no
+          beard. It depends on the day.
         </p>
         <p className="about-education">
           My education is in Economics and that's where I had my first taste of
