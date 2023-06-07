@@ -60,3 +60,21 @@
     height: 28px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 1080px) {
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .footer-text,
+  .logo-links {
+    gap: 10px;
+  }
+
+  .footer-logo {
+    height: 28px;
+  }
+}
