@@ -1,0 +1,36 @@
+.Home {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: 000814;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn-more-container {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more {
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  color: #000814;
+  background-color: #ffd60a;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.learn-more:hover {
+  opacity: 0.8;
+}
+
+.user-logo {
+  height: 300px;
+}
