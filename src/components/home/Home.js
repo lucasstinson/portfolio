@@ -8,12 +8,11 @@ const Home = () => {
     <div className="Home">
       <div className="intro">
         <div className="intro-text">
-          <h2 className="name-intro">
+          <div className="name-intro">
             Hi! I'm <span className="name">Luke</span>.
-          </h2>
-          <h1 className="info-intro">
-            I'm an aspiring web developer based in Nashville.
-          </h1>
+          </div>
+          <div className="info-intro">I'm a self-taught web</div>
+          <div className="info-intro">developer based in Nashville.</div>
           <div className="learn-more-container">
             <Link to="/about">
               <button className="learn-more">Get to Know Me</button>
@@ -21,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div className="intro-image">
-          <img src={userLogo} className="user-logo"></img>
+          <img src={userLogo} className="user-logo" alt=""></img>
         </div>
       </div>
     </div>

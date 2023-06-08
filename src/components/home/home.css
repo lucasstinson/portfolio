@@ -5,22 +5,37 @@
   color: #000814;
 }
 
+.intro {
+  height: 50vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 50px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name-intro {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .name {
   color: #ffc300;
 }
 
-.intro {
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  align-items: center;
-  gap: 100px;
+.info-intro {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .learn-more-container {
   display: flex;
-  justify-content: center;
+  margin-top: 30px;
 }
 
 .learn-more {
@@ -64,6 +79,10 @@
 
   .info-intro {
     font-size: 24px;
+  }
+
+  .learn-more-container {
+    justify-content: center;
   }
 
   .learn-more {
