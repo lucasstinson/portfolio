@@ -10,7 +10,7 @@
 .project-container {
   width: 1350px;
   display: flex;
-  height: 40vh;
+  height: 45vh;
 }
 
 .project-title {
@@ -72,8 +72,13 @@
   color: #003566;
 }
 
+.project-image-container.memory-game {
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
 .memory-game-image {
-  height: 360px;
+  height: 400px;
 }
 
 .shopping-cart {
@@ -115,7 +120,7 @@
 }
 
 .hyper-image {
-  max-height: 350px;
+  max-height: 300px;
 }
 
 @media (max-width: 480px) {
@@ -171,13 +176,14 @@
     padding: 0;
   }
 
-  .project-image-container.memory-game {
+  .project-image-container.memory-game,
+  .project-image-container.hyper {
     margin-top: auto;
     justify-content: end;
   }
 
   .memory-game-image {
-    max-height: 240px;
+    max-height: 260px;
   }
 
   .shopping-cart-image {
@@ -190,7 +196,7 @@
   }
 
   .hyper-image {
-    max-height: 225px;
+    max-height: 250px;
   }
 }
 
@@ -270,12 +276,16 @@
 }
 
 @media (min-width: 1981px) {
+  .project-image-container.memory-game {
+    margin-top: 0px;
+  }
+
   .memory-game-image {
     height: 500px;
     content: url(/home/user/Desktop/Coding/Code/OdinProject/repos/portfolio-project/portfolio/src/assets/images/memoryGamePhoneMock.png);
   }
 
   .shopping-cart-image {
-    max-height: 400px;
+    max-height: 300px;
   }
 }
