@@ -8,7 +8,7 @@
 }
 
 .project-container {
-  max-width: 1350px;
+  width: 1350px;
   display: flex;
   height: 40vh;
 }
@@ -16,7 +16,6 @@
 .project-title {
   font-size: 60px;
   font-weight: 700;
-  color: white;
 }
 
 .project-description {
@@ -91,6 +90,34 @@
   height: 300px;
 }
 
+.portfolio {
+  background-color: #001d3d;
+  color: white;
+}
+
+.portfolio-button {
+  background-color: white;
+  color: #001d3d;
+}
+
+.portfolio-image {
+  max-height: 325px;
+}
+
+.hyper {
+  background-color: white;
+  color: #001d3d;
+}
+
+.hyper-button {
+  background-color: #001d3d;
+  color: white;
+}
+
+.hyper-image {
+  max-height: 350px;
+}
+
 @media (max-width: 480px) {
   .Projects {
     gap: 40px;
@@ -136,6 +163,7 @@
 
   .project-image-container {
     display: flex;
+    height: 50%;
     width: 95vw;
     flex-direction: column;
     justify-content: center;
@@ -143,12 +171,25 @@
     padding: 0;
   }
 
+  .project-image-container.memory-game {
+    margin-top: auto;
+    justify-content: end;
+  }
+
   .memory-game-image {
-    max-height: 275px;
+    max-height: 240px;
   }
 
   .shopping-cart-image {
     padding: 5px;
+    max-height: 180px;
+  }
+
+  .portfolio-image {
+    max-height: 190px;
+  }
+
+  .hyper-image {
     max-height: 225px;
   }
 }
@@ -202,12 +243,29 @@
     padding: 0;
   }
 
+  .project-image-container.memory-game {
+    margin-top: auto;
+    justify-content: end;
+  }
+
   .memory-game-image {
-    max-height: 220px;
+    max-height: 210px;
+  }
+
+  .project-image-container.shopping-cart {
+    padding-left: 5px;
   }
 
   .shopping-cart-image {
     max-height: 210px;
+  }
+
+  .portfolio-image {
+    max-height: 200px;
+  }
+
+  .hyper-image {
+    max-height: 225px;
   }
 }
 
@@ -218,6 +276,6 @@
   }
 
   .shopping-cart-image {
-    height: 400px;
+    max-height: 400px;
   }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import userLogo from "../../assets/images/characterLogo.png";
 import "./home.css";
 import { Link } from "react-router-dom";
+import Projects from "../projects/Projects";
 
 const Home = () => {
   return (
