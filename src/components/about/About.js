@@ -46,3 +46,5 @@ export default About;
 // I’m based in Nashville and think of my self as a person focused
 // on self-improvement whether it's every project or something even more personal
 // like health and exercise.
+
+// if I dont know it I'll figure it out
