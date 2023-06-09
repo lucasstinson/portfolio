@@ -1,27 +1,32 @@
 import React from "react";
 import "./about.css";
 import headshot from "../../assets/images/headshot.jpeg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div className="About">
       <div className="about-text-container">
-        <div className="Hello">Hello,</div>
-        <p className="about-photo-into">
-          That's a recent picture of me, but I may currently have glasses or no
-          beard. It depends on the day.
+        <p className="about-photo-intro">
+          This is me. Sometimes I wear glasses, sometimes I'm clean shaven. It
+          depends on the day.
         </p>
         <p className="about-education">
-          My education is in Economics and that's where I had my first taste of
-          a coding language. Since then I have stepped through quite a few
-          financial companies, but it has ultimately led me back into coding and
-          more specifically into web development.
+          I studied Economics in school, and that's when I had my first taste of
+          coding. Since then, I have been in quite a few finance roles. But no
+          matter where I work, I'm always more interested in the actual coding
+          behind the financial tools I use.
         </p>
         <p className="about-me">
-          I’m based in Nashville and think of my self as a person focused on
-          self-improvement whether it's every project or something even more
-          personal like health and exercise.
+          I think of myself as an ambitious person focused on getting the job
+          done, whether it's web development or learning how to start a
+          homestead here in Tennessee.
         </p>
+        <div className="learn-more-container ">
+          <Link to="/projects">
+            <button className="learn-more">Check Out My Work</button>
+          </Link>
+        </div>
       </div>
       <div className="about-image-container">
         <img

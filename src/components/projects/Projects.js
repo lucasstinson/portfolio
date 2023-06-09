@@ -5,16 +5,17 @@ import shoppingCart from "../../assets/images/shoppingCartDisplay.png";
 import portfolioSite from "../../assets/images/portfolioDisplay.png";
 import { Link } from "react-router-dom";
 import hyper from "../../assets/images/hyperDisplayMobile.png";
+import resumeCreator from "../../assets/images/resumeCreatorDisplay.png";
 
 const Projects = () => {
   return (
     <div className="Projects">
       <div className="projects-title">
-        My recent <span className="highlight">Projects</span>
+        My Recent <span className="highlight">Projects</span>
       </div>
       <div className="project-container hyper">
         <div className="project-info">
-          <div className="project-title">Hyper</div>
+          <div className="project-title">Hyper Social Media App</div>
           <div className="project-description">
             A mock Twitter that allows users to create a profile, post messages,
             and interact with others.
@@ -37,11 +38,10 @@ const Projects = () => {
           <img className="shopping-cart-image" alt="" src={shoppingCart}></img>
         </div>
         <div className="project-info">
-          <div className="project-title shopping-cart">Shopping cart</div>
+          <div className="project-title shopping-cart">Shopping Cart</div>
           <div className="project-description">
-            This website is a recreation of stor for computer parts. You are
-            able navigate all the way to the checkout page. You can add or
-            subtract items from your cart and witness the real-time cart update.
+            Navigate to the checkout page, add or subtract items, and see
+            real-time cart updates.
           </div>
           <div className="project-buttons-container">
             <Link to="https://lucasstinson.github.io/shopping-cart/">
@@ -61,10 +61,7 @@ const Projects = () => {
         <div className="project-info">
           <div className="project-title">Memory Game</div>
           <div className="project-description">
-            This game tests your memory. You'll be presented with multiple
-            images. The images will shuffle each-time they are clicked. DON'T
-            click an image twice, else the score will reset. Can you get the Max
-            Score?
+            Put your memory to the test! Can you get the max score?
           </div>
           <div className="project-buttons-container">
             <Link to="https://lucasstinson.github.io/memory-card-game/">
@@ -80,23 +77,44 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-container portfolio">
-        <div className="project-image-container portfolio">
-          <img className="portfolio-image" alt="" src={portfolioSite}></img>
+      <div className="project-container resume-creator">
+        <div className="project-image-container">
+          <img
+            className="resume-creator-image"
+            alt=""
+            src={resumeCreator}
+          ></img>
         </div>
         <div className="project-info">
-          <div className="project-title">Portfolio</div>
+          <div className="project-title">Resume Builder</div>
           <div className="project-description">
-            You're looking at it. Why not take a look around!
+            A quick and easy way to create your resume.
           </div>
           <div className="project-buttons-container">
-            <Link to="https://lucasstinson.github.io/portfolio/">
-              <button className="project-live portfolio-button ">Live</button>
+            <Link to="https://lucasstinson.github.io/resume-creator/">
+              <button className="project-live resume-button">Live</button>
             </Link>
+            <Link to="https://github.com/lucasstinson/resume-creator">
+              <button className="project-code resume-button">Code</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-container portfolio">
+        <div className="project-info">
+          <div className="project-title">My Portfolio</div>
+          <div className="project-description">
+            You're already here, why not take a look around?!
+          </div>
+          <div className="project-buttons-container">
             <Link to="https://github.com/lucasstinson/portfolio">
               <button className="project-code portfolio-button ">Code</button>
             </Link>
           </div>
+        </div>
+        <div className="project-image-container portfolio">
+          <img className="portfolio-image" alt="" src={portfolioSite}></img>
         </div>
       </div>
     </div>

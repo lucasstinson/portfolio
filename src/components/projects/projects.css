@@ -128,6 +128,20 @@
   max-height: 300px;
 }
 
+.resume-creator {
+  background-color: white;
+  color: #001d3d;
+}
+
+.resume-button {
+  background-color: #001d3d;
+  color: white;
+}
+
+.resume-creator-image {
+  max-height: 300px;
+}
+
 @media (max-width: 480px) {
   .Projects {
     gap: 40px;
@@ -196,7 +210,7 @@
   }
 
   .memory-game-image {
-    max-height: 260px;
+    max-height: 240px;
   }
 
   .shopping-cart-image {
@@ -209,7 +223,11 @@
   }
 
   .hyper-image {
-    max-height: 250px;
+    max-height: 240px;
+  }
+
+  .resume-creator-image {
+    max-height: 182px;
   }
 }
 
@@ -291,10 +309,15 @@
   .hyper-image {
     max-height: 225px;
   }
+
+  .resume-creator-image {
+    max-height: 190px;
+  }
 }
 
 @media (min-width: 1981px) {
   .project-image-container.memory-game {
+    justify-content: center;
     margin-top: 0px;
   }
 

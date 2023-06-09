@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <div className="skills-title">My Toolbox</div>
+        <div className="skills-title">My Ever-Growing Toolbox</div>
         <div className="tech-icon-container">
           <img className="tech-icon css" src={css} alt=""></img>
           <img className="tech-icon firebase" src={firebase} alt=""></img>
@@ -58,13 +58,11 @@ const Home = () => {
       </div>
       <div className="web-dev-intro-container">
         <div className="web-dev-intro-title">
-          If I don't know it, I'll find a way to do it
+          If I don't know it, I find a way to do it.
         </div>
         <div className="web-dev-intro-content">
-          I see web development like a puzzle. The pieces are there and you just
-          have to figure out where they go. Many times it feels like you have
-          put this puzzle together before, but sometimes it changes and thats
-          where the real fun happens.{" "}
+          I see web dev like a puzzle: All the pieces are there, it's just
+          figuring out where they go.
         </div>
       </div>
 

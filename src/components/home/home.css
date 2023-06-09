@@ -93,7 +93,7 @@
 }
 
 .web-dev-intro-container {
-  color: #ffc300;
+  color: #001d3d;
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -160,7 +160,8 @@
   }
 
   .skills-title {
-    font-size: 32px;
+    text-align: center;
+    font-size: 28px;
     color: white;
   }
 
@@ -181,7 +182,6 @@
   }
 
   .web-dev-intro-container {
-    color: #ffc300;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -257,7 +257,6 @@
   }
 
   .web-dev-intro-container {
-    color: #ffc300;
     height: 30vh;
     display: flex;
     flex-direction: column;
