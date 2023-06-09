@@ -27,16 +27,17 @@
     gap: 0px;
   }
 
+  .about-photo-intro {
+    font-size: 24px;
+  }
+
   .about-text-container {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 10px;
-  }
-  .about-photo-intro {
-    font-size: 24px;
   }
 
   .about-text-container > .learn-more-container {
@@ -45,7 +46,7 @@
   }
 
   .personal-photo {
-    height: 200px;
+    height: 150px;
   }
 }
 
@@ -54,7 +55,7 @@
     display: flex;
     padding: 20px;
     height: 60vh;
-    gap: 10px;
+    gap: 0px;
   }
 
   .about-photo-intro {
@@ -63,7 +64,7 @@
 
   .about-text-container {
     font-size: 15px;
-    max-width: 88%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
   }
