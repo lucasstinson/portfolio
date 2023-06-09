@@ -9,7 +9,9 @@ import git from "../../assets/images/tech-icons/git.png";
 import html from "../../assets/images/tech-icons/html.png";
 import javascript from "../../assets/images/tech-icons/javascript.png";
 import jest from "../../assets/images/tech-icons/jest.png";
+// import linux from "../../assets/images/tech-icons/linux.png";
 import npm from "../../assets/images/tech-icons/npm.png";
+import python from "../../assets/images/tech-icons/python.png";
 import reactrouter from "../../assets/images/tech-icons/react-router.svg";
 import react from "../../assets/images/tech-icons/react.png";
 import webpack from "../../assets/images/tech-icons/webpack.png";
@@ -44,6 +46,7 @@ const Home = () => {
           <img className="tech-icon javascript" src={javascript} alt=""></img>
           <img className="tech-icon jest" src={jest} alt=""></img>
           <img className="tech-icon npm" src={npm} alt=""></img>
+          <img className="tech-icon python" src={python} alt=""></img>
           <img
             className="tech-icon react-router"
             src={reactrouter}
