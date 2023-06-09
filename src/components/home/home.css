@@ -1,8 +1,10 @@
 .Home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000814;
+  gap: 10px;
 }
 
 .intro {
@@ -24,7 +26,7 @@
   font-weight: 700;
 }
 
-.name {
+.highlight {
   color: #ffc300;
 }
 
@@ -56,6 +58,58 @@
 
 .user-logo {
   height: 300px;
+}
+
+.skills {
+  width: 1350px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #003566;
+  margin-bottom: 20px;
+}
+
+.skills-title {
+  font-size: 60px;
+  color: white;
+}
+
+.tech-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-icon {
+  height: 96px;
+}
+
+.tech-icon.react-router {
+  height: 96px;
+  width: 96px;
+}
+
+.web-dev-intro-container {
+  color: #ffc300;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.web-dev-intro-title {
+  font-size: 60px;
+}
+
+.web-dev-intro-content {
+  font-size: 30px;
 }
 
 @media (max-width: 480px) {
@@ -94,6 +148,56 @@
     height: 200px;
     padding-left: 20px;
   }
+
+  .skills {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #003566;
+  }
+
+  .skills-title {
+    font-size: 32px;
+    color: white;
+  }
+
+  .tech-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .tech-icon {
+    height: 48px;
+  }
+
+  .tech-icon.react-router {
+    height: 48px;
+    width: 48px;
+  }
+
+  .web-dev-intro-container {
+    color: #ffc300;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .web-dev-intro-title {
+    font-size: 32px;
+  }
+
+  .web-dev-intro-content {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1080px) {
@@ -118,5 +222,56 @@
 
   .user-logo {
     height: 200px;
+  }
+
+  .skills {
+    width: 95vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #003566;
+  }
+
+  .skills-title {
+    font-size: 32px;
+    color: white;
+  }
+
+  .tech-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .tech-icon {
+    height: 48px;
+  }
+
+  .tech-icon.react-router {
+    height: 48px;
+    width: 48px;
+  }
+
+  .web-dev-intro-container {
+    color: #ffc300;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .web-dev-intro-title {
+    font-size: 32px;
+  }
+
+  .web-dev-intro-content {
+    font-size: 18px;
   }
 }

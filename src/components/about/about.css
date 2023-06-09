@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px;
   height: 70vh;
+  gap: 20px;
 }
 
 .Hello {
@@ -24,6 +25,7 @@
     flex-direction: column;
     padding: 20px;
     height: 80vh;
+    gap: 0px;
   }
   .Hello {
     font-size: 40px;

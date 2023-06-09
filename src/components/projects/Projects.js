@@ -9,6 +9,9 @@ import hyper from "../../assets/images/hyperDisplayMobile.png";
 const Projects = () => {
   return (
     <div className="Projects">
+      <div className="projects-title">
+        My recent <span className="highlight">Projects</span>
+      </div>
       <div className="project-container hyper">
         <div className="project-info">
           <div className="project-title">Hyper</div>
