@@ -17,6 +17,8 @@
 
 - An experience page can be added for more information on prior jobs.
 
+### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 #### Step 1: Set up and planning
