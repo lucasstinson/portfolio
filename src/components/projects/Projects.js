@@ -3,7 +3,6 @@ import "./projects.css";
 import memoryGame from "../../assets/images/memoryGamePhoneMockMobile.png";
 import shoppingCart from "../../assets/images/shoppingCartDisplay.png";
 import portfolioSite from "../../assets/images/portfolioDisplay.png";
-import { Link } from "react-router-dom";
 import hyper from "../../assets/images/hyperDisplayMobile.png";
 import resumeCreator from "../../assets/images/resumeCreatorDisplay.png";
 
@@ -21,12 +20,12 @@ const Projects = () => {
             and interact with others.
           </div>
           <div className="project-buttons-container">
-            <Link to="https://lucasstinson.github.io/hyper/">
+            <a href="https://lucasstinson.github.io/hyper/">
               <button className="project-live hyper-button ">Live</button>
-            </Link>
-            <Link to="https://github.com/lucasstinson/hyper">
+            </a>
+            <a href="https://github.com/lucasstinson/hyper">
               <button className="project-code hyper-button ">Code</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-image-container hyper">
@@ -44,16 +43,16 @@ const Projects = () => {
             real-time cart updates.
           </div>
           <div className="project-buttons-container">
-            <Link to="https://lucasstinson.github.io/shopping-cart/">
+            <a href="https://lucasstinson.github.io/shopping-cart/">
               <button className="project-live shopping-cart-button">
                 Live
               </button>
-            </Link>
-            <Link to="https://github.com/lucasstinson/shopping-cart">
+            </a>
+            <a href="https://github.com/lucasstinson/shopping-cart">
               <button className="project-code shopping-cart-button">
                 Code
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -64,12 +63,12 @@ const Projects = () => {
             Put your memory to the test! Can you get the max score?
           </div>
           <div className="project-buttons-container">
-            <Link to="https://lucasstinson.github.io/memory-card-game/">
+            <a href="https://lucasstinson.github.io/memory-card-game/">
               <button className="project-live memory-game-button ">Live</button>
-            </Link>
-            <Link to="https://github.com/lucasstinson/memory-card-game">
+            </a>
+            <a href="https://github.com/lucasstinson/memory-card-game">
               <button className="project-code memory-game-button ">Code</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-image-container memory-game">
@@ -91,12 +90,12 @@ const Projects = () => {
             A quick and easy way to create your resume.
           </div>
           <div className="project-buttons-container">
-            <Link to="https://lucasstinson.github.io/resume-creator/">
+            <a href="https://lucasstinson.github.io/resume-creator/">
               <button className="project-live resume-button">Live</button>
-            </Link>
-            <Link to="https://github.com/lucasstinson/resume-creator">
+            </a>
+            <a href="https://github.com/lucasstinson/resume-creator">
               <button className="project-code resume-button">Code</button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -108,9 +107,9 @@ const Projects = () => {
             You're already here, why not take a look around?!
           </div>
           <div className="project-buttons-container">
-            <Link to="https://github.com/lucasstinson/portfolio">
+            <a href="https://github.com/lucasstinson/portfolio">
               <button className="project-code portfolio-button ">Code</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="project-image-container portfolio">

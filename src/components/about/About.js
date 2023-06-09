@@ -7,21 +7,21 @@ const About = () => {
   return (
     <div className="About">
       <div className="about-text-container">
-        <p className="about-photo-intro">
+        <div className="about-photo-intro">
           This is me. Sometimes I wear glasses, sometimes I'm clean shaven. It
           depends on the day.
-        </p>
-        <p className="about-education">
-          I studied Economics in school, and that's when I had my first taste of
-          coding. Since then, I have been in quite a few finance roles. But no
-          matter where I work, I'm always more interested in the actual coding
-          behind the financial tools I use.
-        </p>
-        <p className="about-me">
+        </div>
+        <div className="about-education">
+          I studied Economics at Rutgers, and that's when I had my first taste
+          of coding. Since then, I have been in quite a few finance roles. But
+          no matter where I work, I'm always more interested in the actual
+          coding behind the financial tools I use.
+        </div>
+        <div className="about-me">
           I think of myself as an ambitious person focused on getting the job
           done, whether it's web development or learning how to start a
           homestead here in Tennessee.
-        </p>
+        </div>
         <div className="learn-more-container ">
           <Link to="/projects">
             <button className="learn-more">Check Out My Work</button>

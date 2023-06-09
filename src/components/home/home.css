@@ -102,6 +102,7 @@
   max-width: 1350px;
   margin-top: 10px;
   margin-bottom: 10px;
+  gap: 15px;
 }
 
 .web-dev-intro-title {
@@ -119,6 +120,7 @@
     align-content: center;
     justify-content: center;
     padding: 20px;
+    padding-top: 25px;
     gap: 50px;
   }
 
