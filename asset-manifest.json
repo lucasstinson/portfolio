@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7ea6d24a.css",
+    "main.js": "./static/js/main.65a1ef6c.js",
+    "static/media/shoppingCartDisplay.png": "./static/media/shoppingCartDisplay.9eb6a287d2384f40a767.png",
+    "static/media/portfolioDisplay.png": "./static/media/portfolioDisplay.e00bc6592d391b6b2512.png",
+    "static/media/resumeCreatorDisplay.png": "./static/media/resumeCreatorDisplay.2074c6e318fe99939491.png",
+    "static/media/headshot.jpeg": "./static/media/headshot.90b81897dd6e36ee6ba1.jpeg",
+    "static/media/memoryGamePhoneMock.png": "./static/media/memoryGamePhoneMock.79f8351234f606d0fead.png",
+    "static/media/memoryGamePhoneMockMobile.png": "./static/media/memoryGamePhoneMockMobile.516ff01ea64b66c8b50b.png",
+    "static/media/characterLogo.png": "./static/media/characterLogo.3733fd13316ccb4d8c7e.png",
+    "static/media/hyperDisplayMobile.png": "./static/media/hyperDisplayMobile.c910c445010620d64e98.png",
+    "static/media/react-router.svg": "./static/media/react-router.d3a3678be263c9df0964778f1151630c.svg",
+    "index.html": "./index.html",
+    "main.7ea6d24a.css.map": "./static/css/main.7ea6d24a.css.map",
+    "main.65a1ef6c.js.map": "./static/js/main.65a1ef6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ea6d24a.css",
+    "static/js/main.65a1ef6c.js"
+  ]
+}
