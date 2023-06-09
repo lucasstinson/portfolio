@@ -39,21 +39,47 @@ const Home = () => {
       <div className="skills">
         <div className="skills-title">My Ever-Growing Toolbox</div>
         <div className="tech-icon-container">
-          <img className="tech-icon css" src={css} alt=""></img>
-          <img className="tech-icon firebase" src={firebase} alt=""></img>
-          <img className="tech-icon git" src={git} alt=""></img>
-          <img className="tech-icon html" src={html} alt=""></img>
-          <img className="tech-icon javascript" src={javascript} alt=""></img>
-          <img className="tech-icon jest" src={jest} alt=""></img>
-          <img className="tech-icon npm" src={npm} alt=""></img>
-          <img className="tech-icon python" src={python} alt=""></img>
+          <img className="tech-icon css" src={css} alt="" title="CSS"></img>
+          <img
+            className="tech-icon firebase"
+            src={firebase}
+            alt=""
+            title="Firebase"
+          ></img>
+          <img className="tech-icon git" src={git} alt="" title="Git"></img>
+          <img className="tech-icon html" src={html} alt="" title="HTML"></img>
+          <img
+            className="tech-icon javascript"
+            src={javascript}
+            alt=""
+            title="Javascript"
+          ></img>
+          <img className="tech-icon jest" src={jest} alt="" title="Jest"></img>
+          <img className="tech-icon npm" src={npm} alt="" title="NPM"></img>
+          <img
+            className="tech-icon python"
+            src={python}
+            alt=""
+            title="Python"
+          ></img>
           <img
             className="tech-icon react-router"
             src={reactrouter}
             alt=""
+            title="React Router"
           ></img>
-          <img className="tech-icon react" src={react} alt=""></img>
-          <img className="tech-icon webpack" src={webpack} alt=""></img>
+          <img
+            className="tech-icon react"
+            src={react}
+            alt=""
+            title="React"
+          ></img>
+          <img
+            className="tech-icon webpack"
+            src={webpack}
+            alt=""
+            title="Webpack"
+          ></img>
         </div>
       </div>
       <div className="web-dev-intro-container">
