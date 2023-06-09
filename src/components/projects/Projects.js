@@ -121,10 +121,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// Built with React
-// this game puts your memory to the test.
-// You'll be presented with multiple images.
-// The images will shuffle every-time they are clicked.
-// DO NOT click any images twice, else the score will reset to zero.
-// The goal is to get the highest score possible.
