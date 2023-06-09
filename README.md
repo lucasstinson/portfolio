@@ -41,8 +41,4 @@
 3. It doesn't matter when or how you accomplish the responsiveness of this project. There are people who will tell you that you should always start with the mobile experience and then use media-queries to tell your layout how to expand. The 'mobile-first' crew _does_ have some good points (Google it!) but in the end, how you accomplish it doesn't matter as long as it works. Good luck!
 4. When you're done, don't forget to push it to GitHub, and use GitHub Pages to publish it to the world! You should be proud of what you've accomplished here!
 
-#### Step 4: Give Your Feedback
-
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSdVvT-2TiczhXP9qGfr28Aq6w6wzct0ypDqcpztaocA9bypXw/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
-
 </div>
