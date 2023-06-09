@@ -131,6 +131,9 @@
 @media (max-width: 480px) {
   .Projects {
     gap: 40px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .project-container {
