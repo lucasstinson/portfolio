@@ -3,18 +3,6 @@ import userLogo from "../../assets/images/characterLogo.png";
 import "./home.css";
 import { Link } from "react-router-dom";
 import Projects from "../projects/Projects";
-import css from "../../assets/images/tech-icons/css.png";
-import firebase from "../../assets/images/tech-icons/firebase.png";
-import git from "../../assets/images/tech-icons/git.png";
-import html from "../../assets/images/tech-icons/html.png";
-import javascript from "../../assets/images/tech-icons/javascript.png";
-import jest from "../../assets/images/tech-icons/jest.png";
-// import linux from "../../assets/images/tech-icons/linux.png";
-import npm from "../../assets/images/tech-icons/npm.png";
-import python from "../../assets/images/tech-icons/python.png";
-import reactrouter from "../../assets/images/tech-icons/react-router.svg";
-import react from "../../assets/images/tech-icons/react.png";
-import webpack from "../../assets/images/tech-icons/webpack.png";
 import Skills from "./components/Skills";
 
 const Home = () => {
