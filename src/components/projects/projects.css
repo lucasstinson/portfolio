@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  padding-top: 60px;
 }
 
 .project-container {
@@ -153,7 +154,7 @@
   .Projects {
     gap: 40px;
     padding: 0px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
   }
 
