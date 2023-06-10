@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-<!-- A **live preview** of the project is [here](https://lucasstinson.github.io/portfolio/). -->
+A **live preview** of the project is [here](https://lucasstinson.com/).
 
 ### Overview
 
