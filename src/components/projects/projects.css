@@ -14,6 +14,11 @@
   box-shadow: 1px 1px 1px 1px #00081417;
 }
 
+.project-container.shopping-cart,
+.project-container.resume-creator {
+  flex-direction: row-reverse;
+}
+
 .projects-title {
   font-size: 60px;
   font-weight: 700;
@@ -159,6 +164,11 @@
     flex-direction: column;
   }
 
+  .project-container.shopping-cart,
+  .project-container.resume-creator {
+    flex-direction: column-reverse;
+  }
+
   .project-info {
     width: 95%;
     display: flex;
@@ -244,7 +254,6 @@
     display: flex;
   }
   .project-info {
-    /* width: 95%; */
     display: flex;
     flex-direction: column;
     justify-content: center;

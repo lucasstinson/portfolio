@@ -15,6 +15,7 @@ import python from "../../assets/images/tech-icons/python.png";
 import reactrouter from "../../assets/images/tech-icons/react-router.svg";
 import react from "../../assets/images/tech-icons/react.png";
 import webpack from "../../assets/images/tech-icons/webpack.png";
+import Skills from "./components/Skills";
 
 const Home = () => {
   return (
@@ -39,47 +40,7 @@ const Home = () => {
       <div className="skills">
         <div className="skills-title">My Ever-Growing Toolbox</div>
         <div className="tech-icon-container">
-          <img className="tech-icon css" src={css} alt="" title="CSS"></img>
-          <img
-            className="tech-icon firebase"
-            src={firebase}
-            alt=""
-            title="Firebase"
-          ></img>
-          <img className="tech-icon git" src={git} alt="" title="Git"></img>
-          <img className="tech-icon html" src={html} alt="" title="HTML"></img>
-          <img
-            className="tech-icon javascript"
-            src={javascript}
-            alt=""
-            title="Javascript"
-          ></img>
-          <img className="tech-icon jest" src={jest} alt="" title="Jest"></img>
-          <img className="tech-icon npm" src={npm} alt="" title="NPM"></img>
-          <img
-            className="tech-icon python"
-            src={python}
-            alt=""
-            title="Python"
-          ></img>
-          <img
-            className="tech-icon react-router"
-            src={reactrouter}
-            alt=""
-            title="React Router"
-          ></img>
-          <img
-            className="tech-icon react"
-            src={react}
-            alt=""
-            title="React"
-          ></img>
-          <img
-            className="tech-icon webpack"
-            src={webpack}
-            alt=""
-            title="Webpack"
-          ></img>
+          <Skills />
         </div>
       </div>
       <div className="web-dev-intro-container">
