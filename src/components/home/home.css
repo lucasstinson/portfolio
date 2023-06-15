@@ -79,17 +79,20 @@
 
 .tech-icon-container {
   display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
 .tech-icon {
-  height: 96px;
+  height: 72px;
 }
 
 .tech-icon.react-router {
-  height: 96px;
-  width: 96px;
+  height: 72px;
+  width: 72px;
 }
 
 .web-dev-intro-container {
@@ -175,12 +178,12 @@
   }
 
   .tech-icon {
-    height: 48px;
+    height: 40px;
   }
 
   .tech-icon.react-router {
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
   }
 
   .web-dev-intro-container {
