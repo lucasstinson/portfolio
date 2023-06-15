@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   padding-top: 60px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .memory-game-image {
-  height: 370px;
+  height: 280px;
 }
 
 .shopping-cart {
@@ -105,7 +105,7 @@
 }
 
 .shopping-cart-image {
-  height: 300px;
+  height: 280px;
 }
 
 .portfolio {
@@ -119,7 +119,7 @@
 }
 
 .portfolio-image {
-  max-height: 325px;
+  max-height: 280px;
 }
 
 .hyper {
@@ -133,7 +133,7 @@
 }
 
 .hyper-image {
-  max-height: 300px;
+  max-height: 290px;
 }
 
 .resume-creator {
@@ -147,7 +147,7 @@
 }
 
 .resume-creator-image {
-  max-height: 300px;
+  max-height: 280px;
 }
 
 @media (max-width: 480px) {
@@ -303,7 +303,7 @@
   }
 
   .memory-game-image {
-    max-height: 210px;
+    max-height: 150px;
   }
 
   .project-image-container.shopping-cart {
@@ -323,7 +323,7 @@
   }
 
   .resume-creator-image {
-    max-height: 190px;
+    max-height: 110px;
   }
 }
 
