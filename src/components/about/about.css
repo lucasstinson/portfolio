@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 80px;
   height: 70vh;
   gap: 20px;
 }
@@ -13,9 +13,9 @@
 }
 
 .about-text-container {
-  font-size: 24px;
+  font-size: 20px;
   max-width: 30%;
-  gap: 40px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +25,7 @@
 }
 
 .personal-photo {
-  height: 500px;
+  max-height: 480px;
 }
 
 @media (max-width: 480px) {
