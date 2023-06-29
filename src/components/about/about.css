@@ -9,7 +9,7 @@
 }
 
 .about-photo-intro {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .about-text-container {
@@ -22,6 +22,10 @@
 
 .about-text-container > .learn-more-container {
   margin: 0px;
+}
+
+.personal-photo {
+  height: 500px;
 }
 
 @media (max-width: 480px) {
