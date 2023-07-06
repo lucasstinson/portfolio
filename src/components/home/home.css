@@ -105,7 +105,7 @@
   align-items: center;
   max-width: 1350px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   gap: 15px;
 }
 
@@ -115,6 +115,23 @@
 
 .web-dev-intro-content {
   font-size: 30px;
+}
+
+.github-chart-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1350px;
+  margin-bottom: 80px;
+}
+
+.github-chart-title {
+  font-size: 60px;
+}
+
+.github-chart {
+  width: 1350px;
 }
 
 @media (max-width: 480px) {
@@ -167,7 +184,7 @@
 
   .skills-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     color: white;
   }
 
@@ -203,6 +220,18 @@
 
   .web-dev-intro-content {
     font-size: 18px;
+  }
+
+  .github-chart-container {
+    margin-bottom: 30px;
+  }
+
+  .github-chart {
+    width: 95vw;
+  }
+
+  .github-chart-title {
+    font-size: 32px;
   }
 }
 
@@ -246,6 +275,14 @@
     color: white;
   }
 
+  .github-chart {
+    width: 95vw;
+  }
+
+  .github-chart-title {
+    font-size: 32px;
+  }
+
   .tech-icon-container {
     display: flex;
     flex-wrap: wrap;
@@ -254,12 +291,12 @@
   }
 
   .tech-icon {
-    height: 48px;
+    height: 32px;
   }
 
   .tech-icon.react-router {
-    height: 48px;
-    width: 48px;
+    height: 32px;
+    width: 32px;
   }
 
   .web-dev-intro-container {

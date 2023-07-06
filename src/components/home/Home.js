@@ -4,6 +4,7 @@ import "./home.css";
 import { Link } from "react-router-dom";
 import Projects from "../projects/Projects";
 import Skills from "./components/Skills";
+import GithubContributions from "./components/GithubContributions";
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const Home = () => {
           figuring out where they go.
         </div>
       </div>
-
+      <GithubContributions />
       <Projects />
     </div>
   );
