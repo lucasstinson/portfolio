@@ -41,7 +41,7 @@ const Home = () => {
           figuring out where they go.
         </div>
       </div>
-      {/* <GithubContributions /> github chart api down*/}
+      <GithubContributions />
       <Projects />
     </div>
   );
