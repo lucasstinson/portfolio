@@ -7,6 +7,8 @@ import Projects from "./components/projects/Projects";
 import Footer from "./components/footer/Footer";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
+
+// Test
 function App() {
   return (
     <div className="App">
